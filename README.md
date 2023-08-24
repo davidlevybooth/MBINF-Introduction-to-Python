@@ -2,7 +2,35 @@
 
 ## MBINF Introduction to Python Workshop 2023
 
+</br>
+
 ### Getting Started
+
+This workshop is designed to be used entirely in a Jupyter Notebook environment. There are instructions below to setup Jupyter notebooks in your local environment. To get started without installing anything locally, please follow the `Google Colab` instructions. 
+
+</br>
+
+### Google Colab
+
+Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing access free of charge to computing resources including GPUs.
+
+Visit the Google Colab site:
+
+```
+https://colab.research.google.com/ 
+```
+
+Navagate to the `GitHub` tab. Enter the URL for this GitHub respository to get started: 
+
+```
+https://github.com/davidlevybooth/MBINF-Introduction-to-Python
+```
+
+Select the **MBINF-introduction-to-python.ipynb** link for Part 1. 
+
+Select the **MBINF-introduction-to-pandas-ds.ipynb** link for Part 2. 
+
+</br>
 
 #### Install Python
 
@@ -15,8 +43,39 @@
 
 Alternatively, you can install Python through an Anaconda Distribution, although this method is not reviewed in this workshop. 
 
+</br>
 
-#### Install VSCode
+### Installing Jupyter Locally
+
+Following the instructions on https://jupyter.org/install:
+
+To install Jupyter Notebook, open a terminal and enter:
+
+```
+pip install notebook
+```
+
+To run the notebook from the terminal, enter:
+
+```
+jupyter notebook
+```
+
+The Jupyter Notebook homepage should open in your default web brower. 
+
+</br>
+
+#### Download the workshop material
+
+With `git` installed ([instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)), navagate to a directory using your terminal where you'd like to download the workshop contents. From there, run: 
+
+```
+git clone https://github.com/davidlevybooth/MBINF-Introduction-to-Python.git
+```
+
+</br>
+
+#### Install VSCode (Optional)
 - Visual Studio Code (VSCode) is one of the most popular interactive development environments (IDEs) in the world. It is widely used in industry and academia. 
 - Navigate to https://code.visualstudio.com/ and download the appropriate VSCode installer for your operating system. 
 - Review setup instructions for:
