@@ -32,6 +32,8 @@ Select the **MBINF-introduction-to-pandas-ds.ipynb** link for Part 2.
 
 </br>
 
+## Running Locally (not recommended for first-time users)
+
 #### Install Python
 
 - Python 3.11.4 is the newest major release of the Python programming language, and it contains many new features and optimizations.
